@@ -1,0 +1,4 @@
+com/wonderpush/sdk/flutter/fcm/WonderPushFcmPlugin.java
+ com.wonderpush.sdk.flutter.fcm.WonderPushFcmPlugin
+com/wonderpush/sdk/flutter/fcm/BuildConfig.java
+ com.wonderpush.sdk.flutter.fcm.BuildConfig

@@ -1,0 +1,466 @@
+[
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_report_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_report_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_check_box_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_check_box_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_mic_off_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_mic_off_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_help_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_help_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/ac74293b4ba9287a6bc939e6a45744fd/jetified-play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_favorite_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_favorite_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_audiotrack_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_audiotrack_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_replay_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_replay_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_notifications_off_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_notifications_off_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_thumb_down_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_thumb_down_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_alarm_add_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_alarm_add_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_error_outline_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_error_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_keyboard_arrow_down_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_keyboard_arrow_down_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_send_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_send_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_loyalty_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_loyalty_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_arrow_back_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_arrow_back_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_mic_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_mic_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/wonderpush_bottom_shadow.9.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/wonderpush_bottom_shadow.9.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_stop_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_stop_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_gps_fixed_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_gps_fixed_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_arrow_downward_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_arrow_downward_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_credit_card_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_credit_card_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_check_circle_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_check_circle_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_alarm_off_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_alarm_off_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_question_answer_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_question_answer_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_search_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_search_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_clear_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_clear_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_sentiment_neutral_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_sentiment_neutral_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_volume_off_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_volume_off_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_pause_circle_outline_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_pause_circle_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_delete_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_delete_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/common_full_open_on_phone.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/ac74293b4ba9287a6bc939e6a45744fd/jetified-play-services-base-17.0.0/res/drawable-xhdpi-v4/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_phone_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_phone_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_volume_mute_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_volume_mute_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_redeem_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_redeem_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/ac74293b4ba9287a6bc939e6a45744fd/jetified-play-services-base-17.0.0/res/drawable-xhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_keyboard_arrow_right_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_keyboard_arrow_right_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_info_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_info_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_remove_shopping_cart_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_remove_shopping_cart_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_edit_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_edit_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_chat_bubble_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_chat_bubble_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_add_circle_outline_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_add_circle_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_share_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_share_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_more_vert_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_more_vert_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_do_not_disturb_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_do_not_disturb_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_play_circle_outline_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_play_circle_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_vibration_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_vibration_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_sentiment_satisfied_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_sentiment_satisfied_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_map_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_map_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_star_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_star_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_pause_circle_filled_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_pause_circle_filled_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_directions_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_directions_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_navigation_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_navigation_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_add_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_add_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_arrow_upward_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_arrow_upward_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_shopping_cart_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_shopping_cart_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_menu_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_menu_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_star_border_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_star_border_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_remove_circle_outline_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_remove_circle_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_stars_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_stars_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_check_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_check_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_loop_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_loop_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_arrow_drop_down_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_arrow_drop_down_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_chat_bubble_outline_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_chat_bubble_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_star_half_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_star_half_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_play_arrow_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_play_arrow_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/wonderpush_close_button.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/wonderpush_close_button.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_more_horiz_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_more_horiz_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_reply_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_reply_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_add_alert_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_add_alert_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/ac74293b4ba9287a6bc939e6a45744fd/jetified-play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_cancel_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_cancel_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/spinner.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/spinner.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_bookmark_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_bookmark_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_refresh_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_refresh_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_photo_camera_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_photo_camera_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_keyboard_arrow_left_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_keyboard_arrow_left_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_add_circle_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_add_circle_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_arrow_drop_up_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_arrow_drop_up_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_thumbs_up_down_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_thumbs_up_down_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_pause_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_pause_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_get_app_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_get_app_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_arrow_forward_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_arrow_forward_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_zoom_in_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_zoom_in_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_alarm_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_alarm_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_schedule_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_schedule_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/wonderpush_top_shadow.9.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/wonderpush_top_shadow.9.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_feedback_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_feedback_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_keyboard_arrow_up_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_keyboard_arrow_up_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_settings_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_event_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_event_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_thumb_up_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_thumb_up_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_warning_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_warning_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_new_releases_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_new_releases_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_favorite_border_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_favorite_border_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_shopping_basket_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_shopping_basket_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_error_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_error_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_place_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_place_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_volume_up_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_volume_up_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/ac74293b4ba9287a6bc939e6a45744fd/jetified-play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_mail_outline_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_mail_outline_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_remove_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_remove_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/ac74293b4ba9287a6bc939e6a45744fd/jetified-play-services-base-17.0.0/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_sentiment_dissatisfied_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_sentiment_dissatisfied_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/ac74293b4ba9287a6bc939e6a45744fd/jetified-play-services-base-17.0.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_mail_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_mail_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_forward_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_forward_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_add_shopping_cart_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_add_shopping_cart_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_notifications_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_notifications_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_remove_circle_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_remove_circle_white_24dp.png"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/drawable-xhdpi-v4/ic_play_circle_filled_white_24dp.png",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/drawable-xhdpi-v4/ic_play_circle_filled_white_24dp.png"
+    }
+]

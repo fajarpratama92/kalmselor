@@ -1,0 +1,577 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.cranium.counselor"
+4    android:versionCode="1"
+5    android:versionName="4.58.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:3:5-81
+11-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:3:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:4:5-80
+12-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:4:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:5:5-67
+13-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:7:5-76
+15-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:7:22-73
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:8:1-70
+16-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:8:18-68
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:5-68
+17-->[:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:22-65
+18    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+18-->[:flutter_device_identifier] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_device_identifier/intermediates/library_manifest/release/AndroidManifest.xml:7:5-86
+18-->[:flutter_device_identifier] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_device_identifier/intermediates/library_manifest/release/AndroidManifest.xml:7:22-83
+19
+20    <queries>
+20-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:7:5-11:15
+21        <intent>
+21-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:8:9-10:18
+22            <action android:name="android.support.customtabs.action.CustomTabsService" />
+22-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:9:13-90
+22-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:9:21-87
+23        </intent>
+24    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:28:5-82
+25-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:28:22-79
+26    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+26-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:5-79
+26-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:22-76
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:22-107
+28
+29    <application
+30        android:name="android.app.Application"
+30-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:11:9-42
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.6.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/AndroidManifest.xml:24:18-86
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:12:9-43
+33        android:label="Kalmselor" >
+33-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:10:9-34
+34        <activity
+34-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:13:9-33:20
+35            android:name="id.cranium.counselor.MainActivity"
+35-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:14:13-41
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+36-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:18:13-163
+37            android:exported="true"
+37-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:15:13-36
+38            android:hardwareAccelerated="true"
+38-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:19:13-47
+39            android:launchMode="singleTop"
+39-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:16:13-43
+40            android:theme="@style/LaunchTheme"
+40-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:17:13-47
+41            android:windowSoftInputMode="adjustResize" >
+41-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:20:13-55
+42
+43            <!--
+44                 Specifies an Android theme to apply to this Activity as soon as
+45                 the Android process has started. This theme is visible to the user
+46                 while the Flutter UI initializes. After that, this theme continues
+47                 to determine the Window background behind the Flutter UI.
+48            -->
+49            <meta-data
+49-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:25:13-28:17
+50                android:name="io.flutter.embedding.android.NormalTheme"
+50-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:26:15-70
+51                android:resource="@style/NormalTheme" />
+51-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:27:15-52
+52
+53            <intent-filter>
+53-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:29:13-32:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:30:17-68
+54-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:30:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:31:17-76
+56-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:31:27-74
+57            </intent-filter>
+58        </activity>
+59        <!--
+60             Don't delete the meta-data below.
+61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+62        -->
+63        <meta-data
+63-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:36:9-38:33
+64            android:name="flutterEmbedding"
+64-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:37:13-44
+65            android:value="2" />
+65-->/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:38:13-30
+66
+67        <service
+67-->[:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+68            android:name="com.google.firebase.components.ComponentDiscoveryService"
+68-->[:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+69            android:directBootAware="true"
+69-->[com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+70            android:exported="false" >
+70-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+71            <meta-data
+71-->[:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+72                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+72-->[:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:10:17-127
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+74            <meta-data
+74-->[:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:85
+75                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+75-->[:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:14:17-128
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:15:17-82
+77            <meta-data
+77-->[:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+78-->[:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+80            <meta-data
+80-->[:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+81-->[:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+84                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+84-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:20:13-22:85
+87                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+87-->[com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:21:17-111
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:22:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:55:13-57:85
+90                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+90-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:56:17-119
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:57:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:28:13-30:85
+93                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+93-->[com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:29:17-115
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:30:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:32:13-34:85
+96                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+96-->[com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:33:17-109
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:34:17-82
+98            <meta-data
+98-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:31:13-33:85
+99                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+99-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:32:17-139
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:33:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+102                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+102-->[com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+104        </service>
+105
+106        <provider
+106-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+107            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+107-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+108            android:authorities="id.cranium.counselor.flutter.image_provider"
+108-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+109            android:exported="false"
+109-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+110            android:grantUriPermissions="true" >
+110-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+111            <meta-data
+111-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+112                android:name="android.support.FILE_PROVIDER_PATHS"
+112-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+113                android:resource="@xml/flutter_image_picker_file_paths" />
+113-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+114        </provider>
+115
+116        <activity
+116-->[:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+117            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+117-->[:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+118            android:exported="false"
+118-->[:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+119            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+119-->[:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+120        <activity
+120-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:14:9-17:47
+121            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+121-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:15:13-104
+122            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+122-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:16:13-137
+123            android:theme="@style/AppTheme" />
+123-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:17:13-44
+124        <activity
+124-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:18:9-20:55
+125            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+125-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:19:13-112
+126            android:theme="@style/ThemeTransparent" />
+126-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:20:13-52
+127
+128        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver" />
+128-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:22:9-120
+128-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:22:19-117
+129
+130        <meta-data
+130-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:24:9-26:36
+131            android:name="io.flutter.embedded_views_preview"
+131-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:25:13-61
+132            android:value="true" />
+132-->[:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:26:13-33
+133
+134        <uses-library
+134-->[androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+135            android:name="androidx.window.extensions"
+135-->[androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+136            android:required="false" />
+136-->[androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+137        <uses-library
+137-->[androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+138            android:name="androidx.window.sidecar"
+138-->[androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+139            android:required="false" />
+139-->[androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+140
+141        <activity
+141-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+142            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+142-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+143            android:excludeFromRecents="true"
+143-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+144            android:exported="true"
+144-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+145            android:launchMode="singleTask"
+145-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+146-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+147            <intent-filter>
+147-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+148                <action android:name="android.intent.action.VIEW" />
+148-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+148-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+149
+150                <category android:name="android.intent.category.DEFAULT" />
+150-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+150-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+151                <category android:name="android.intent.category.BROWSABLE" />
+151-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+151-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+152
+153                <data
+153-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+154                    android:host="firebase.auth"
+154-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+155                    android:path="/"
+155-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+156                    android:scheme="genericidp" />
+156-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+157            </intent-filter>
+158        </activity>
+159        <activity
+159-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+160            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+160-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+161            android:excludeFromRecents="true"
+161-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+162            android:exported="true"
+162-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+163            android:launchMode="singleTask"
+163-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+164            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+164-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+165            <intent-filter>
+165-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+166                <action android:name="android.intent.action.VIEW" />
+166-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+166-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+168-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+169                <category android:name="android.intent.category.BROWSABLE" />
+169-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+169-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+170
+171                <data
+171-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+172                    android:host="firebase.auth"
+172-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+173                    android:path="/"
+173-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+174                    android:scheme="recaptcha" />
+174-->[com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+175            </intent-filter>
+176        </activity>
+177
+178        <service
+178-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:8:9-14:19
+179            android:name="com.wonderpush.sdk.push.DiscoveryService"
+179-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:9:13-68
+180            android:exported="false" >
+180-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:10:13-37
+181            <meta-data
+181-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:11:13-13:71
+182                android:name="com.wonderpush.sdk.push:com.wonderpush.sdk.push.fcm.FCMPushService"
+182-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:12:17-98
+183                android:value="com.wonderpush.sdk.push.PushService" />
+183-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:13:17-68
+184        </service>
+185        <service
+185-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:15:9-21:19
+186            android:name="com.wonderpush.sdk.push.fcm.FirebaseMessagingService"
+186-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:16:13-80
+187            android:exported="false" >
+187-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:17:13-37
+188            <intent-filter>
+188-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:18:13-20:29
+189                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+189-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:19:17-78
+189-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:19:25-75
+190            </intent-filter>
+191        </service>
+192
+193        <receiver
+193-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:31:9-38:20
+194            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+194-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:32:13-78
+195            android:exported="true"
+195-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:33:13-36
+196            android:permission="com.google.android.c2dm.permission.SEND" >
+196-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:34:13-73
+197            <intent-filter>
+197-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:35:13-37:29
+198                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+198-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:36:17-81
+198-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:36:25-78
+199            </intent-filter>
+200        </receiver>
+201        <!--
+202             FirebaseMessagingService performs security checks at runtime,
+203             but set to not exported to explicitly avoid allowing another app to call it.
+204        -->
+205        <service
+205-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:44:9-51:19
+206            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+206-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:45:13-82
+207            android:directBootAware="true"
+207-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:46:13-43
+208            android:exported="false" >
+208-->[com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:47:13-37
+209            <intent-filter android:priority="-500" >
+209-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:18:13-20:29
+210                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+210-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:19:17-78
+210-->[com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:19:25-75
+211            </intent-filter>
+212        </service>
+213        <service
+213-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:29:9-35:19
+214            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+214-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:30:13-103
+215            android:exported="false" >
+215-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:31:13-37
+216            <meta-data
+216-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:32:13-34:39
+217                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+217-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:33:17-94
+218                android:value="cct" />
+218-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:34:17-36
+219        </service>
+220        <service
+220-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:26:9-30:19
+221            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+221-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:27:13-117
+222            android:exported="false"
+222-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:28:13-37
+223            android:permission="android.permission.BIND_JOB_SERVICE" >
+223-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:29:13-69
+224        </service>
+225
+226        <receiver
+226-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:32:9-34:40
+227            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+227-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:33:13-132
+228            android:exported="false" />
+228-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:34:13-37
+229
+230        <provider
+230-->[com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+231            android:name="com.google.firebase.provider.FirebaseInitProvider"
+231-->[com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+232            android:authorities="id.cranium.counselor.firebaseinitprovider"
+232-->[com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+233            android:directBootAware="true"
+233-->[com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+234            android:exported="false"
+234-->[com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+235            android:initOrder="100" />
+235-->[com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+236        <provider
+236-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:16:9-20:38
+237            android:name="com.wonderpush.sdk.WonderPushInitProvider"
+237-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:17:13-69
+238            android:authorities="id.cranium.counselor.wonderpush.initprovider"
+238-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:18:13-75
+239            android:exported="false"
+239-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:19:13-37
+240            android:initOrder="90" />
+240-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:20:13-35
+241
+242        <service
+242-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:22:9-26:19
+243            android:name="com.wonderpush.sdk.WonderPushResourcesService"
+243-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:23:13-73
+244            android:exported="false"
+244-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:24:13-37
+245            android:permission="android.permission.BIND_JOB_SERVICE" >
+245-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:25:13-69
+246        </service> <!-- Required to properly track notification clicks -->
+247        <activity
+247-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:29:9-34:75
+248            android:name="com.wonderpush.sdk.WonderPushNotificationTrackingReceiver"
+248-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:30:13-85
+249            android:excludeFromRecents="true"
+249-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:31:13-46
+250            android:exported="false"
+250-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:32:13-37
+251            android:noHistory="true"
+251-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:33:13-37
+252            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+252-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:34:13-72
+253
+254        <provider
+254-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:42:9-54:20
+255            android:name="com.wonderpush.sdk.WonderPushFileProvider"
+255-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:43:13-69
+256            android:authorities="id.cranium.counselor.wonderpush.fileprovider"
+256-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:44:13-75
+257            android:exported="false"
+257-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:45:13-37
+258            android:grantUriPermissions="true" >
+258-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:46:13-47
+259            <grant-uri-permission android:pathPrefix="" />
+259-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:47:13-59
+259-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:47:35-56
+260
+261            <path-permission android:pathPrefix="" />
+261-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:49:13-54
+261-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:49:30-51
+262
+263            <meta-data
+263-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+264                android:name="android.support.FILE_PROVIDER_PATHS"
+264-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+265                android:resource="@xml/wonderpush_android_sdk_file_provider_paths" />
+265-->[:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+266        </provider>
+267
+268        <receiver
+268-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:56:9-68:20
+269            android:name="com.wonderpush.sdk.ConfigurationChangedReceiver"
+269-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:57:13-75
+270            android:enabled="true"
+270-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:58:13-35
+271            android:exported="false" >
+271-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:59:13-37
+272            <intent-filter>
+272-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:60:13-67:29
+273                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+273-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:61:17-81
+273-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:61:25-78
+274                <action android:name="android.intent.action.LOCALE_CHANGED" />
+274-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:62:17-79
+274-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:62:25-76
+275                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+275-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:63:17-84
+275-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:63:25-81
+276                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED" />
+276-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:64:17-85
+276-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:64:25-82
+277                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED" />
+277-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:65:17-102
+277-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:65:25-99
+278                <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED" />
+278-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:66:17-108
+278-->[com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:66:25-105
+279            </intent-filter>
+280        </receiver>
+281        <receiver
+281-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:29:9-33:20
+282            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+282-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:30:13-85
+283            android:enabled="true"
+283-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:31:13-35
+284            android:exported="false" >
+284-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:32:13-37
+285        </receiver>
+286
+287        <service
+287-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:35:9-38:40
+288            android:name="com.google.android.gms.measurement.AppMeasurementService"
+288-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:36:13-84
+289            android:enabled="true"
+289-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:37:13-35
+290            android:exported="false" />
+290-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:38:13-37
+291        <service
+291-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:39:9-43:72
+292            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+292-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:40:13-87
+293            android:enabled="true"
+293-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:41:13-35
+294            android:exported="false"
+294-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:42:13-37
+295            android:permission="android.permission.BIND_JOB_SERVICE" />
+295-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:43:13-69
+296
+297        <provider
+297-->[com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+298            android:name="com.squareup.picasso.PicassoProvider"
+298-->[com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+299            android:authorities="id.cranium.counselor.com.squareup.picasso"
+299-->[com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+300            android:exported="false" />
+300-->[com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+301
+302        <activity
+302-->[com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+303            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+303-->[com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+304            android:exported="false"
+304-->[com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+305            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+305-->[com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+306
+307        <meta-data
+307-->[com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+308            android:name="com.google.android.gms.version"
+308-->[com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+309            android:value="@integer/google_play_services_version" />
+309-->[com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+310    </application>
+311
+312</manifest>

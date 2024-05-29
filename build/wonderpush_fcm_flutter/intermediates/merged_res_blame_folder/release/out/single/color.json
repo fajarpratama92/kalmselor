@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/ac74293b4ba9287a6bc939e6a45744fd/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/ac74293b4ba9287a6bc939e6a45744fd/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/ac74293b4ba9287a6bc939e6a45744fd/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

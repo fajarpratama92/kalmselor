@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/cee3701a46e2f61f400a8e4279e5016d/appcompat-1.2.0/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/cee3701a46e2f61f400a8e4279e5016d/appcompat-1.2.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/cee3701a46e2f61f400a8e4279e5016d/appcompat-1.2.0/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/cee3701a46e2f61f400a8e4279e5016d/appcompat-1.2.0/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/cee3701a46e2f61f400a8e4279e5016d/appcompat-1.2.0/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/res/drawable-v21/notification_action_background.xml"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/wonderpush_android_sdk_error_layout.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/res/layout/wonderpush_android_sdk_error_layout.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/wonderpush_android_sdk_modal_portrait_inner.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/res/layout/wonderpush_android_sdk_modal_portrait_inner.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/wonderpush_android_sdk_modal.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/res/layout/wonderpush_android_sdk_modal.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/wonderpush_android_sdk_card_portrait_inner.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/res/layout/wonderpush_android_sdk_card_portrait_inner.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/wonderpush_android_sdk_image.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/res/layout/wonderpush_android_sdk_image.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/wonderpush_android_sdk_card.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/res/layout/wonderpush_android_sdk_card.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/wonderpush_android_sdk_banner.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/res/layout/wonderpush_android_sdk_banner.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/res/merged/release/layout/wonderpush_android_sdk_notification_map_dialog.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/res/layout/wonderpush_android_sdk_notification_map_dialog.xml"
+    }
+]

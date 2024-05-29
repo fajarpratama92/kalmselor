@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":package_info_plus" external.linked.project.path="$USER_HOME$/Development/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.4.0/android" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="io.flutter.plugins.packageinfo" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":package_info_plus" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.1.3" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="4.1.3" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../../build/package_info_plus/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$MODULE_DIR$/../../../../build/package_info_plus/intermediates/compile_r_class_jar/debug/R.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/ea10ce07f1099604e5199c25b49a8708/jetified-flutter_embedding_debug-1.0.0-bd539267b42051b0da3d16ffa8f48949dce8aa8f.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.2.0/cd3478503da69b1a7e0319bd2d1389943db9b364/lifecycle-common-java8-2.2.0.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/bbaa546086244b56c22e205b71cfa00b/fragment-1.1.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/442846bd2a34b9e7c6a2db5aa0a9532b/viewpager-1.0.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/0dfd4c6c63532fd0adc52105927e7c49/loader-1.0.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/3487ccb5b398d31f61f104fdb8491905/jetified-activity-1.0.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/6d9d833535af9c891dc97457d2e49cb2/customview-1.0.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/d1aa173e5477bf408f2267d62c7d1839/core-1.6.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/df7f4897016389039a919f7a3b69dfb2/lifecycle-runtime-2.2.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/81536f5a75383e3ab7a88bc2751f854e/jetified-savedstate-1.0.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/181c6289a716914d33b1cbbea7c08ebf/lifecycle-livedata-2.0.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/a302c5a07cc89d4c8513f8ae3d03851a/lifecycle-livedata-core-2.0.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/3f7ebb39d2f7bc5c74f7e4c550fb8ac5/core-runtime-2.0.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/5a5f5e4914f2d5a9d11f449a01ba5188/versionedparcelable-1.1.1-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/079b6b2d258789cf467b6c77180bfdf9/lifecycle-viewmodel-2.1.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/7d1f9e6f8eac4598fbab2891e455a4f3/jetified-annotation-experimental-1.1.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/7d53cb1963b52932296a2a8523ee272d/jetified-tracing-1.0.0-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/451043532499d7ba8094a5f3dc0cfaa7/jetified-window-java-1.0.0-beta04-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/5ee4dc87947ac0dd28fcd7bdbd3ef26b/jetified-window-1.0.0-beta04-api.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/ec739fff7aa1bd4ca9b172698aa6d186/jetified-kotlinx-coroutines-android-1.5.2.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/8aef07157cf739fdafb98739d0727a97/jetified-kotlinx-coroutines-core-jvm-1.5.2.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/e73e7cdc0a22861f3f27061d13771ae2/jetified-kotlin-stdlib-jdk8-1.5.30.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/2c58a0bde660582a5cb501383db23970/jetified-kotlin-stdlib-jdk7-1.5.30.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/93493f8523195eb40ed046133825e960/jetified-kotlin-stdlib-1.6.10.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/35c3a03fefaa7a36c1e107878d196da5/jetified-annotations-13.0.jar:/Users/cranium-fajar/Development/gradle-7.4.1/caches/transforms-2/files-2.1/14787ad045684860fafd40c84dcfd293/jetified-kotlin-stdlib-common-1.6.10.jar:/Users/cranium-fajar/Library/Android/sdk/platforms/android-31/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="moduleName" value="package_info_plus_debug" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.6" />
+          <option name="apiVersion" value="1.6" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$USER_HOME$/Development/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.4.0/android/src/main/res;file://$USER_HOME$/Development/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.4.0/android/src/debug/res;file://$MODULE_DIR$/../../../../build/package_info_plus/generated/res/rs/debug;file://$MODULE_DIR$/../../../../build/package_info_plus/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$USER_HOME$/Development/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.4.0/android/src/androidTest/res;file://$USER_HOME$/Development/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.4.0/android/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../build/package_info_plus/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../build/package_info_plus/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/../../../../build/package_info_plus/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../build/package_info_plus/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$USER_HOME$/Development/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.4.0/android">
+      <excludeFolder url="file://$USER_HOME$/Development/flutter/.pub-cache/hosted/pub.dartlang.org/package_info_plus-1.4.0/android/.gradle" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

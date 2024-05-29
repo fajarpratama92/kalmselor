@@ -1,0 +1,67 @@
+[
+	{
+		"id": 4228,
+		"name": "FOTO PROFIL",
+		"file": "cons-220215095052869-foto-profil-1644916015.jpg",
+		"status": 5,
+		"is_mandatory": 1,
+		"created_at": "2022-02-15 16:06:57",
+		"updated_at": "2022-02-15 16:06:57",
+		"created_by": null,
+		"updated_by": null
+	},
+	{
+		"id": 4229,
+		"name": "KTP/PASPOR",
+		"file": "cons-220215095052869-ktppaspor-1644916018.jpg",
+		"status": 5,
+		"is_mandatory": 1,
+		"created_at": "2022-02-15 16:07:02",
+		"updated_at": "2022-02-15 16:07:02",
+		"created_by": null,
+		"updated_by": null
+	},
+	{
+		"id": 4230,
+		"name": "IJAZAH S1",
+		"file": "cons-220215095052869-ijazah-s1-1644916022.jpg",
+		"status": 5,
+		"is_mandatory": 1,
+		"created_at": "2022-02-15 16:07:03",
+		"updated_at": "2022-02-15 16:07:03",
+		"created_by": null,
+		"updated_by": null
+	},
+	{
+		"id": 4231,
+		"name": "IJAZAH S2",
+		"file": "cons-220215095052869-ijazah-s2-1644916023.jpg",
+		"status": 5,
+		"is_mandatory": 1,
+		"created_at": "2022-02-15 16:07:04",
+		"updated_at": "2022-02-15 16:07:04",
+		"created_by": null,
+		"updated_by": null
+	},
+	{
+		"id": 4232,
+		"name": "SKCK/SIP",
+		"file": "cons-220215095052869-skcksip-1644916024.jpg",
+		"status": 5,
+		"is_mandatory": 1,
+		"updated_at": "2022-02-15 16:07:05",
+		"created_by": null,
+		"updated_by": null
+	},
+	{
+		"id": 4233,
+		"name": "NPWP",
+		"file": "cons-220215095052869-npwp-1644916025.jpg",
+		"status": 5,
+		"is_mandatory": 1,
+		"created_at": "2022-02-15 16:07:05",
+		"updated_at": "2022-02-15 16:07:05",
+		"created_by": null,
+		"updated_by": null
+	}
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+
+    <files-path path="exports/" name="exports" />
+    <cache-path path="sounds/" name="cache-sounds" />
+
+</paths>

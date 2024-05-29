@@ -1,0 +1,8 @@
+com/wonderpush/sdk/flutter/BuildConfig.java
+ com.wonderpush.sdk.flutter.BuildConfig
+com/wonderpush/sdk/flutter/WonderPushPlugin.java
+ com.wonderpush.sdk.flutter.WonderPushPlugin
+ com.wonderpush.sdk.flutter.WonderPushPlugin$1
+ com.wonderpush.sdk.flutter.WonderPushPlugin$2
+ com.wonderpush.sdk.flutter.WonderPushPlugin$3
+ com.wonderpush.sdk.flutter.WonderPushPlugin$3$1

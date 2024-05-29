@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item format="integer" name="bannerContentWeight" type="dimen">3</item>
+    <item format="integer" name="bannerWeightSum" type="dimen">5</item>
+    <item format="float" name="dialogHeightPct" type="dimen">0.80</item>
+    <item format="float" name="dialogWidthPct" type="dimen">0.85</item>
+</resources>

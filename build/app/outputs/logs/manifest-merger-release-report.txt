@@ -1,0 +1,995 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:9:4-39:19
+MERGED from [:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-17:19
+MERGED from [:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:7:5-12:19
+MERGED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:13:5-27:19
+MERGED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:13:5-27:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/bf8b7f1ae9e41ad28474df4f122b1f93/jetified-firebase-analytics-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/bf8b7f1ae9e41ad28474df4f122b1f93/jetified-firebase-analytics-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:7:5-22:19
+MERGED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:7:5-22:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/23b949888f1f33da7547214e378d9f38/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/23b949888f1f33da7547214e378d9f38/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3a43471cf39e332ed42ba4b778f2fab6/jetified-firebase-appcheck-interop-16.0.0-beta05/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3a43471cf39e332ed42ba4b778f2fab6/jetified-firebase-appcheck-interop-16.0.0-beta05/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:15:5-69:19
+MERGED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:15:5-69:19
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d615a798df891d62ed2422d25c29f0c9/jetified-play-services-measurement-sdk-20.1.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d615a798df891d62ed2422d25c29f0c9/jetified-play-services-measurement-sdk-20.1.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3088225e71dc6d5453527e4fe1dffd04/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3088225e71dc6d5453527e4fe1dffd04/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/930e22a755457b9a7c713d7c63a14acc/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/930e22a755457b9a7c713d7c63a14acc/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/b65d97cfbf71df490a292746764d646a/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/b65d97cfbf71df490a292746764d646a/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/85c180b571623a061042cb51d2933048/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/85c180b571623a061042cb51d2933048/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/0dcd6559b0fae756064f648f0d02cf20/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/0dcd6559b0fae756064f648f0d02cf20/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/65b958cb2592f2cca24f773834afd685/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/65b958cb2592f2cca24f773834afd685/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/72a99340ef829591e2d6e2dc1a2e0b10/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/72a99340ef829591e2d6e2dc1a2e0b10/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/dc8bb7ddb5b4540eea302eac20b762c9/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/dc8bb7ddb5b4540eea302eac20b762c9/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3803be2ff5b9924f842f1dc9c3c4140a/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3803be2ff5b9924f842f1dc9c3c4140a/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:10:9-34
+	android:icon
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:name
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:11:9-42
+manifest
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:1:1-40:12
+MERGED from [:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:wonderpush_flutter] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/path_provider_android/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:wonderpush_fcm_flutter] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_device_identifier] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_device_identifier/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:webview_flutter_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/webview_flutter_android/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/permission_handler_android/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:2:1-29:12
+MERGED from [:connectivity] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_exif_rotation] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_exif_rotation/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_keyboard_visibility] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_keyboard_visibility/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:package_info_plus] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/package_info_plus/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:launch_review] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/launch_review/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/2eca5b39417c3202510acfd00ea9e0b2/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/bf8b7f1ae9e41ad28474df4f122b1f93/jetified-firebase-analytics-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/73b2a2bfd13fc3313a88022537a3b928/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/23b949888f1f33da7547214e378d9f38/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3a43471cf39e332ed42ba4b778f2fab6/jetified-firebase-appcheck-interop-16.0.0-beta05/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:2:1-71:12
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d615a798df891d62ed2422d25c29f0c9/jetified-play-services-measurement-sdk-20.1.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3088225e71dc6d5453527e4fe1dffd04/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/41e23cdbbe52bac15a2aa6c461e52849/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/2b7ea2f2058f72cfbbabf146b6fb66ae/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/a08e6d52dc7078a54ba35c603dc97996/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.3.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/612e32087897f91949c01d601d69c82b/browser-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/cee3701a46e2f61f400a8e4279e5016d/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/46541d889b2e1b1620d2c31906c248f3/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7e9c03636c526ae709287047491e7f16/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/aa9421a9f5c286c02d160930f5182be9/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/a1f0225cdda447786e9e8b87c716792b/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f74d69be0864035767fa08de123e4b15/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/930e22a755457b9a7c713d7c63a14acc/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3ba8260339a52904fe6d18708d2b977/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/b65d97cfbf71df490a292746764d646a/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3a9b70cc2998a163b3665da8494850a1/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/85c180b571623a061042cb51d2933048/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/0dcd6559b0fae756064f648f0d02cf20/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/65b958cb2592f2cca24f773834afd685/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/72a99340ef829591e2d6e2dc1a2e0b10/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d04f345d389eac874e3d119a7fde1a8a/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6f8f808aa2b2f855c6ee02b132f42e5c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/39a607f176d23e042e3d2a9a8c40960c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/0bdcf9b316650fc0484deedf8cb10419/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7eb9c9df15cd61eca0d3227e4ab30c5b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6500ee789fadb1b9979b548c71443236/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8f53233cf78e84151f88c80155cf4205/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/1fed164be621dc46b2cf8f12bc4a1c76/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/10ebe9cdcf21ac9f0edccaef6a5de74e/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8ed27277d1051d05baf3021bc9131ea7/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/a6b3b9c5e4d6f423249735530e9695e8/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/af891c209e71a203e1f67cc436cc6691/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/250443d768531ab46b1020edf5e3271f/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8beaeba724de300dc29f15f4ea190914/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d993db92df575df2646e10f844a68f16/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/dc8bb7ddb5b4540eea302eac20b762c9/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c49933c68d4efc1075dcbee35fd6bab8/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7353b2fcd9a22899ed83e8afd451b40c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/207294a74c5da7f9d69ae6095d323175/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/32b5986c3ff86e757037c7666004a74f/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4d659f451e3a79fd7788411b90f676fa/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e5291bb4ccfed9af6fdb4f660e07adbc/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c614de887735f77502c64dba05061550/jetified-grpc-android-1.44.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/25ae484902657928570812eee105ea63/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3803be2ff5b9924f842f1dc9c3c4140a/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/2cb23fbd508e8c4e7eb6e809307db8b9/jetified-rxandroid-2.0.2/AndroidManifest.xml:15:1-21:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9b936af674dfdfe877c5e0ba80cc3f49/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:1:1-40:12
+	package
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:2:5-35
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:3:5-81
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:3:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:4:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:7:5-67
+MERGED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:connectivity] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:connectivity] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c614de887735f77502c64dba05061550/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c614de887735f77502c64dba05061550/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:8:1-70
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:8:18-68
+uses-sdk
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:wonderpush_flutter] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:wonderpush_flutter] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_flutter/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/path_provider_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/path_provider_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:wonderpush_fcm_flutter] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:wonderpush_fcm_flutter] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_device_identifier] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_device_identifier/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_device_identifier] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_device_identifier/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/webview_flutter_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/webview_flutter_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/permission_handler_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/permission_handler_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:connectivity] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/connectivity/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_exif_rotation] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_exif_rotation/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_exif_rotation] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_exif_rotation/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_keyboard_visibility/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_keyboard_visibility/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:package_info_plus] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/package_info_plus/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:package_info_plus] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/package_info_plus/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:launch_review] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/launch_review/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:launch_review] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/launch_review/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/2eca5b39417c3202510acfd00ea9e0b2/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/2eca5b39417c3202510acfd00ea9e0b2/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/bf8b7f1ae9e41ad28474df4f122b1f93/jetified-firebase-analytics-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/bf8b7f1ae9e41ad28474df4f122b1f93/jetified-firebase-analytics-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:5:5-44
+MERGED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/73b2a2bfd13fc3313a88022537a3b928/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/73b2a2bfd13fc3313a88022537a3b928/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/23b949888f1f33da7547214e378d9f38/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/23b949888f1f33da7547214e378d9f38/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3a43471cf39e332ed42ba4b778f2fab6/jetified-firebase-appcheck-interop-16.0.0-beta05/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta05] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3a43471cf39e332ed42ba4b778f2fab6/jetified-firebase-appcheck-interop-16.0.0-beta05/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d615a798df891d62ed2422d25c29f0c9/jetified-play-services-measurement-sdk-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d615a798df891d62ed2422d25c29f0c9/jetified-play-services-measurement-sdk-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3088225e71dc6d5453527e4fe1dffd04/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3088225e71dc6d5453527e4fe1dffd04/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/41e23cdbbe52bac15a2aa6c461e52849/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/41e23cdbbe52bac15a2aa6c461e52849/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/2b7ea2f2058f72cfbbabf146b6fb66ae/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/2b7ea2f2058f72cfbbabf146b6fb66ae/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/a08e6d52dc7078a54ba35c603dc97996/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/a08e6d52dc7078a54ba35c603dc97996/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/612e32087897f91949c01d601d69c82b/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/612e32087897f91949c01d601d69c82b/browser-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/cee3701a46e2f61f400a8e4279e5016d/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/cee3701a46e2f61f400a8e4279e5016d/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/46541d889b2e1b1620d2c31906c248f3/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/46541d889b2e1b1620d2c31906c248f3/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7e9c03636c526ae709287047491e7f16/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7e9c03636c526ae709287047491e7f16/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/aa9421a9f5c286c02d160930f5182be9/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/aa9421a9f5c286c02d160930f5182be9/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/a1f0225cdda447786e9e8b87c716792b/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/a1f0225cdda447786e9e8b87c716792b/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f74d69be0864035767fa08de123e4b15/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f74d69be0864035767fa08de123e4b15/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/930e22a755457b9a7c713d7c63a14acc/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/930e22a755457b9a7c713d7c63a14acc/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3ba8260339a52904fe6d18708d2b977/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3ba8260339a52904fe6d18708d2b977/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/b65d97cfbf71df490a292746764d646a/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/b65d97cfbf71df490a292746764d646a/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3a9b70cc2998a163b3665da8494850a1/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3a9b70cc2998a163b3665da8494850a1/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/85c180b571623a061042cb51d2933048/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/85c180b571623a061042cb51d2933048/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/0dcd6559b0fae756064f648f0d02cf20/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/0dcd6559b0fae756064f648f0d02cf20/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/65b958cb2592f2cca24f773834afd685/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/65b958cb2592f2cca24f773834afd685/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/72a99340ef829591e2d6e2dc1a2e0b10/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/72a99340ef829591e2d6e2dc1a2e0b10/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d04f345d389eac874e3d119a7fde1a8a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d04f345d389eac874e3d119a7fde1a8a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6f8f808aa2b2f855c6ee02b132f42e5c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6f8f808aa2b2f855c6ee02b132f42e5c/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/39a607f176d23e042e3d2a9a8c40960c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/39a607f176d23e042e3d2a9a8c40960c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/0bdcf9b316650fc0484deedf8cb10419/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/0bdcf9b316650fc0484deedf8cb10419/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7eb9c9df15cd61eca0d3227e4ab30c5b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7eb9c9df15cd61eca0d3227e4ab30c5b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6500ee789fadb1b9979b548c71443236/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6500ee789fadb1b9979b548c71443236/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8f53233cf78e84151f88c80155cf4205/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8f53233cf78e84151f88c80155cf4205/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/1fed164be621dc46b2cf8f12bc4a1c76/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/1fed164be621dc46b2cf8f12bc4a1c76/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/10ebe9cdcf21ac9f0edccaef6a5de74e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/10ebe9cdcf21ac9f0edccaef6a5de74e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c3e64919895ddf0f6b82d20b88ae4e84/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8ed27277d1051d05baf3021bc9131ea7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8ed27277d1051d05baf3021bc9131ea7/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/a6b3b9c5e4d6f423249735530e9695e8/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/a6b3b9c5e4d6f423249735530e9695e8/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/af891c209e71a203e1f67cc436cc6691/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/af891c209e71a203e1f67cc436cc6691/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/250443d768531ab46b1020edf5e3271f/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/250443d768531ab46b1020edf5e3271f/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8beaeba724de300dc29f15f4ea190914/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8beaeba724de300dc29f15f4ea190914/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d993db92df575df2646e10f844a68f16/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/d993db92df575df2646e10f844a68f16/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/dc8bb7ddb5b4540eea302eac20b762c9/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/dc8bb7ddb5b4540eea302eac20b762c9/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c49933c68d4efc1075dcbee35fd6bab8/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c49933c68d4efc1075dcbee35fd6bab8/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7353b2fcd9a22899ed83e8afd451b40c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7353b2fcd9a22899ed83e8afd451b40c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/207294a74c5da7f9d69ae6095d323175/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/207294a74c5da7f9d69ae6095d323175/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/32b5986c3ff86e757037c7666004a74f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/32b5986c3ff86e757037c7666004a74f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4d659f451e3a79fd7788411b90f676fa/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4d659f451e3a79fd7788411b90f676fa/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e5291bb4ccfed9af6fdb4f660e07adbc/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e5291bb4ccfed9af6fdb4f660e07adbc/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c614de887735f77502c64dba05061550/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c614de887735f77502c64dba05061550/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/25ae484902657928570812eee105ea63/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/25ae484902657928570812eee105ea63/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3803be2ff5b9924f842f1dc9c3c4140a/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3803be2ff5b9924f842f1dc9c3c4140a/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/2cb23fbd508e8c4e7eb6e809307db8b9/jetified-rxandroid-2.0.2/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/2cb23fbd508e8c4e7eb6e809307db8b9/jetified-rxandroid-2.0.2/AndroidManifest.xml:19:5-43
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9b936af674dfdfe877c5e0ba80cc3f49/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9b936af674dfdfe877c5e0ba80cc3f49/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml
+activity#id.cranium.counselor.MainActivity
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:13:9-33:20
+	android:launchMode
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:16:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:19:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:20:13-55
+	android:exported
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:15:13-36
+	android:configChanges
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:18:13-163
+	android:theme
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:17:13-47
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:14:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:25:13-28:17
+	android:resource
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:27:15-52
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:26:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:29:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:30:17-68
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:31:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:36:9-38:33
+	android:value
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:38:13-30
+	android:name
+		ADDED from /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/android/app/src/main/AndroidManifest.xml:37:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:52:9-58:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_database] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_database/intermediates/library_manifest/release/AndroidManifest.xml:10:17-127
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:26:5-68
+MERGED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:26:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:22-65
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [:firebase_analytics] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:14:17-128
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+uses-permission#android.permission.READ_PRIVILEGED_PHONE_STATE
+ADDED from [:flutter_device_identifier] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_device_identifier/intermediates/library_manifest/release/AndroidManifest.xml:7:5-86
+	android:name
+		ADDED from [:flutter_device_identifier] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_device_identifier/intermediates/library_manifest/release/AndroidManifest.xml:7:22-83
+queries
+ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:7:5-11:15
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:8:9-10:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:9:13-90
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:9:21-87
+activity#com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity
+ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:14:9-17:47
+	android:configChanges
+		ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:16:13-137
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:17:13-44
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:15:13-104
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:18:9-20:55
+	android:theme
+		ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:20:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:19:13-112
+receiver#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:22:9-120
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:22:19-117
+meta-data#io.flutter.embedded_views_preview
+ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:24:9-26:36
+	android:value
+		ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:26:13-33
+	android:name
+		ADDED from [:flutter_inappwebview] /Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/flutter_inappwebview/intermediates/library_manifest/release/AndroidManifest.xml:25:13-61
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/e6f09faac730a0c90c64c918bcf0738f/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/3692ee5a0e3f1f3b4a29583811f3ab27/jetified-firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/15872851dc76a7d9fbb39c3273923b13/jetified-firebase-firestore-24.1.0/AndroidManifest.xml:21:17-111
+service#com.wonderpush.sdk.push.DiscoveryService
+ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:8:9-14:19
+MERGED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:37:9-40:19
+MERGED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:37:9-40:19
+	android:exported
+		ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:10:13-37
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:9:13-68
+meta-data#com.wonderpush.sdk.push:com.wonderpush.sdk.push.fcm.FCMPushService
+ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:11:13-13:71
+	android:value
+		ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:13:17-68
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:12:17-98
+service#com.wonderpush.sdk.push.fcm.FirebaseMessagingService
+ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:15:9-21:19
+	android:exported
+		ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:16:13-80
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:18:13-20:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:19:17-78
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk-fcm:1.0.5] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4c4f241d8b354e2f85775f450c1b0a74/jetified-wonderpush-android-sdk-fcm-1.0.5/AndroidManifest.xml:19:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/8a98347eb784740f5bced7209e4995bb/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:28:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:31:9-38:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:33:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:34:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:32:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:35:13-37:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:36:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:36:25-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:44:9-51:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:47:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:46:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:45:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:55:13-57:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:57:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:23.0.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/4298557e95ff5b61ddd67d9326825745/jetified-firebase-messaging-23.0.2/AndroidManifest.xml:56:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f316276c145cb8257f2caad37bfc5bea/jetified-firebase-datatransport-18.1.1/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9fa04b15336f555fdec981b472b5244c/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/356bd1fcfd4b9a5435f8b99f42f755fd/jetified-transport-runtime-3.1.2/AndroidManifest.xml:33:13-132
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.4] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/948422effbb2a0ebf892f284f74d90cc/jetified-firebase-database-20.0.4/AndroidManifest.xml:33:17-109
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/65b958cb2592f2cca24f773834afd685/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/65b958cb2592f2cca24f773834afd685/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/936adb4dfe1492ce9412866300f6dfce/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/9138024d58581fd159f9e670cab0aa8d/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/6fc21e41da6fc1eb379715be74df8b15/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/7dfe6e1e327a9f81c51ae933178b18a7/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+provider#com.wonderpush.sdk.WonderPushInitProvider
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:16:9-20:38
+	android:authorities
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:18:13-75
+	android:exported
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:19:13-37
+	android:initOrder
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:20:13-35
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:17:13-69
+service#com.wonderpush.sdk.WonderPushResourcesService
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:22:9-26:19
+	android:exported
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:24:13-37
+	android:permission
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:25:13-69
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:23:13-73
+activity#com.wonderpush.sdk.WonderPushNotificationTrackingReceiver
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:29:9-34:75
+	android:excludeFromRecents
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:31:13-46
+	android:noHistory
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:33:13-37
+	android:exported
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:32:13-37
+	android:theme
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:30:13-85
+provider#com.wonderpush.sdk.WonderPushFileProvider
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:42:9-54:20
+	android:grantUriPermissions
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:46:13-47
+	android:authorities
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:44:13-75
+	android:exported
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:43:13-69
+grant-uri-permission
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:47:13-59
+	android:pathPrefix
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:47:35-56
+path-permission
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:49:13-54
+	android:pathPrefix
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:49:30-51
+receiver#com.wonderpush.sdk.ConfigurationChangedReceiver
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:56:9-68:20
+	android:enabled
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:58:13-35
+	android:exported
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:57:13-75
+intent-filter#action:name:android.app.action.APP_BLOCK_STATE_CHANGED+action:name:android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED+action:name:android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED+action:name:android.intent.action.LOCALE_CHANGED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.TIMEZONE_CHANGED
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:60:13-67:29
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:61:17-81
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:61:25-78
+action#android.intent.action.LOCALE_CHANGED
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:62:17-79
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:62:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:63:17-84
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:63:25-81
+action#android.app.action.APP_BLOCK_STATE_CHANGED
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:64:17-85
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:64:25-82
+action#android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:65:17-102
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:65:25-99
+action#android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED
+ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:66:17-108
+	android:name
+		ADDED from [com.wonderpush:wonderpush-android-sdk:4.1.3] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/879feec75c681463212c9c8c9bc4751d/jetified-wonderpush-android-sdk-4.1.3/AndroidManifest.xml:66:25-105
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/f65c9cf1586af08ce0acc1205fcc79d8/jetified-play-services-measurement-impl-20.1.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/69d24dee8aa0ca9a56b5974ef473df35/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:40:13-87
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/5af4e9d6dfbd52ab27027f091b826a1c/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/27c607a241a5a376bf69e99c7dfb98c3/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/07981b6f5d7c4a3842f2024226f3959b/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58

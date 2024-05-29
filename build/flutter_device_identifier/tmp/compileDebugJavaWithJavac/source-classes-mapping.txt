@@ -1,0 +1,4 @@
+com/drox/flutter_device_identifier/FlutterDeviceIdentifierPlugin.java
+ com.drox.flutter_device_identifier.FlutterDeviceIdentifierPlugin
+com/drox/flutter_device_identifier/BuildConfig.java
+ com.drox.flutter_device_identifier.BuildConfig

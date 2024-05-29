@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/layout-land/wonderpush_android_sdk_modal.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/layout-land/wonderpush_android_sdk_modal.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/layout-land/wonderpush_android_sdk_card_landscape_inner.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/layout-land/wonderpush_android_sdk_card_landscape_inner.xml"
+    },
+    {
+        "merged": "/Users/cranium-fajar/Cranium/kalm-kalmselor-flutter/build/wonderpush_fcm_flutter/intermediates/res/merged/release/layout-land/wonderpush_android_sdk_card.xml",
+        "source": "/Users/cranium-fajar/.gradle/caches/transforms-2/files-2.1/c23f6675f6a2fab17e2ec881d370637a/jetified-wonderpush-android-sdk-4.3.1/res/layout-land/wonderpush_android_sdk_card.xml"
+    }
+]
